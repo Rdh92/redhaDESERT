@@ -1,0 +1,97 @@
+/* Feuille de style - désert maquette - redha */
+
+body{
+    background-color: aquamarine;
+}
+
+header h1{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+header > div{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    float: none;
+    position: static;
+    z-index: auto;
+
+}
+
+#logo{
+    margin-bottom: 5px;
+}
+
+.haut{
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+}
+
+.navigation nav a{
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 40px;
+}
+
+
+nav a{
+    padding-left: 70px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section article{
+    margin-left: 20px;
+    flex: 1 1 100px;
+}
+
+aside ol li{
+    height: 40px;
+    width: 150px;
+    background-color: bisque;
+}
+
+img{
+    flex-wrap: wrap;
+}
+
+.liste{
+    margin-right: 20px;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+li{
+    line-height: 5px;
+}
+
+
+aside{
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-end;
+    float: left;
+}
+
+footer{
+    text-align: center;
+}
+
